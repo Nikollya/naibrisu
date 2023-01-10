@@ -1,0 +1,42 @@
+.wrapper {
+  margin: 34px 70px 0;
+}
+.menu-bar {
+  height: 100px;
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  padding: 0 55px 0 55px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul {
+    display: flex;
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 44px;
+      color: #348CAD;
+    }
+    li {
+      margin-right: 62px;
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+  .logo {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 65px;
+    color: #348CAD;
+  }
+
+}
+
