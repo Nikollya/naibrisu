@@ -1,7 +1,8 @@
 .wrapper {
-  margin: 34px 70px 0;
+  padding: 34px 70px 0;
 }
 .menu-bar {
+  z-index: 10;
   height: 100px;
   background-color: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
@@ -21,6 +22,9 @@
       font-size: 28px;
       line-height: 44px;
       color: #348CAD;
+      &:hover {
+        color: #9448BC;
+      }
     }
     li {
       margin-right: 62px;
@@ -36,6 +40,9 @@
     font-size: 48px;
     line-height: 65px;
     color: #348CAD;
+    &:hover {
+      color: #9448BC;
+    }
   }
 
 }
