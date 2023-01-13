@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import MenuBar from "./components/UI/MenuBar";
+
+import MenuBar from "./components/UI/menuBar/MenuBar";
 
 
 function App() {
   return (
     <div className="App">
         <MenuBar/>
-
     </div>
   );
 }
