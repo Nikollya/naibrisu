@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    background: url("../public/purple.png") no-repeat;
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    background: url("../public/purple.svg") right 0 top 0 no-repeat;
+    -webkit-background-size: 100vh;
+    background-size: 100vh;
 }

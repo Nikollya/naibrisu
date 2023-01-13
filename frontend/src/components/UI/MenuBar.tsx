@@ -3,6 +3,7 @@ import "./menuBar.scss"
 
 const MenuBar = () => {
     return (
+    <header>
         <div className="wrapper">
             <div className="menu-bar">
                 <h2 className="logo">naibrisu</h2>
@@ -14,6 +15,7 @@ const MenuBar = () => {
                 </ul>
             </div>
         </div>
+    </header>
     );
 };
 

@@ -2,8 +2,10 @@
   padding: 34px 70px 0;
 }
 .menu-bar {
+  position: fixed;
   z-index: 10;
   height: 100px;
+  width: 80%;
   background-color: #fff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   padding: 0 55px 0 55px;
